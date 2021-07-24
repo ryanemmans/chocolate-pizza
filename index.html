@@ -12,15 +12,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  
 </head>
 
 <body>
   <header>
     <section>
-      <img id="logo" src="./img/logo.png" alt="logo">
       <div id="delicious">
+        <img id="logo" src="./img/logo.png" alt="logo">
         <h1>Delicious</h1>
         <h4>The Best Food Blog on the Web</h4>
       </div>
@@ -39,20 +40,16 @@
   </header>
 
   <main>
-    <section>
-      <!-- <div>
-        <img src="./img/hr-img.png" alt="Horizontal Rule">
-      </div> -->
-      <hr>
-      <div>
-        <h2>Chocolate Pizza</h2>
+    <img class="hr" src="./img/hRule.png" alt="Horizontal Rule">
+    <h2>Chocolate Pizza</h2>
+    <section id="title">
+        <div>
         <h3>Posted on 15 Dec 2013 / Desserts</h3>
-      </div><div>
-          <img src="./img/print-icon.png" alt="Print">
+      </div>
+      <div id="print">
+          <img id="printer" src="./img/print-icon.png" alt="Print">
           <h3>Print</h3>
-        </div>
-      
-     
+        </div>    
     </section>
 
     <section>
@@ -81,9 +78,10 @@
       <img src="./img/list-bg.png" alt="List Background">
       <form>
         <fieldset>
+          <div id="listLeft">
           <label>
-            <input type="checkbox" name="milk">
-            1 1/2 cups milk
+            <input type="checkbox" name="milk">1 1/2 cups milk
+           
           </label>
           <label>
             <input type="checkbox" name="mascarpone">
@@ -105,7 +103,9 @@
             <input type="checkbox" name="water">
             2-4 tbsp water
           </label>
-
+        </div>
+        
+        <div id="listRight">
           <label>
             <input type="checkbox" name="cream">
             1 1/2 cups heavy cream
@@ -128,27 +128,32 @@
           </label>
           <label>
             <input type="checkbox" name="pecans">
-            1 cup honey roasted pecans, roughly chopped
+            1 cup honey roasted pecans, roughly<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chopped
           </label>
+        </div>
         </fieldset>
       </form>
       <div>
-        <img src="./img/hr-img.png" alt="Horizontal Rule">
+        <img class="hr" src="./img/hRule.png" alt="Horizontal Rule">
       </div>
     </section>
 
-    <section>
-      <img src="./img/van-pic.png" alt="Vanessa Stevenson">
-      <h3>Vanessa Stevenson</h3>
+    <section id="authorSection">
+      <div id="authorBox">
+      <img id="vanessa" src="./img/van-pic.png" alt="Vanessa Stevenson">
+      <h3 id="author">Vanessa Stevenson</h3>
       <p>Food enthusiast, photography fan, Add a pinch of raw foodism and that's pretty much who I am.</p>
+    </div>
+    <div id="button">
       <button>Share Recipe</button>
+    </div>
     </section>
   </main>
 
   <footer>
     <hr>
-    <img src="./img/small-logo.png" alt="logo">
-    <hr>
+    <img id="footerLogo" src="./img/small-logo.png" alt="logo">
     <p>Delicious &#169; 2013 &#8226; All Rights Reserved.</p>
     <p>Proudly published with Ghost.</p>
   </footer>
