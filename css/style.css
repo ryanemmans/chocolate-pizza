@@ -85,76 +85,74 @@ main section div {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
- }
+}
  
- main p {
-   font-size: 1.2em;
-   line-height: 1.3em;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   margin: 30px 0px;
- }
+main p {
+  font-size: 1.2em;
+  line-height: 1.3em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 30px 0px;
+}
 
- .hr {
-   width: 901px;
-   height: 15px;
-   margin-bottom: 60px;
- }
+.hr {
+  width: 901px;
+  height: 15px;
+  margin-bottom: 60px;
+}
 
- #title {
-   width: 901px;
-   display: flex;
-   justify-content: space-between;
- }
+#title {
+  width: 901px;
+  display: flex;
+  justify-content: space-between;
+}
 
- #print {
-   display: flex;
-   flex-direction: row;
-   flex-wrap: nowrap;
-   height: 10px;
-   }
+#print {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 10px;
+}
 
-   #printer {
-     height: 10px;
-   }
+#printer {
+  height: 10px;
+}
 
- fieldset {
-   width: 901px;
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
-   margin-top: -272px;
-   margin-bottom: 100px;
- }
+fieldset {
+  width: 901px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: -272px;
+  margin-bottom: 100px;
+}
 
- label{
-   display: block;
-   font-family: 'Patrick Hand', cursive;
-   font-size: 1.6em;
-   line-height: 1.23em;
+label{
+  display: block;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.6em;
+  line-height: 1.23em;
+}
 
- }
+input {
+  display: inline-block;
+  flex-wrap: wrap;
+}
 
- input {
-   display: inline-block;
-   flex-wrap: wrap;
+#listRight {
+  margin-left: 100px;
+  width: 400px;
+}
 
- }
+#authorSection {
+  display: flex;
+  flex-direction: row;
+  width: 901px;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
 
- #listRight {
-   margin-left: 100px;
-   width: 400px;
- }
-
- #authorSection {
-   display: flex;
-   flex-direction: row;
-   width: 901px;
-   justify-content: space-between;
-   flex-wrap: nowrap;
- }
-
- #authorBox {
+#authorBox {
   width: 700px;
   justify-content: left;
 }
@@ -164,21 +162,20 @@ main section div {
   margin: 20px; 
 }
 
- #author {
+#author {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-transform: capitalize;
   color: black;
   font-size: 1.5em;
   font-weight: bold;
   margin: 20px 0px -20px 0px;
- }
+}
 
- #button {
+#button {
   margin-top: 25px;
-  
- }
+}
 
- button {
+button {
   text-transform: uppercase;
   border: none;
   padding: 18px 45px;
@@ -187,31 +184,31 @@ main section div {
   transform: scale(1, .9);
   background-color: rgb(189, 114, 84);
   color: white;
- }
+}
 
- footer {
-   text-align: center;
- }
+footer {
+  text-align: center;
+}
 
- hr {
-   margin-bottom: 3px;
-   background-color: grey;
-  }
+hr {
+  margin-bottom: 3px;
+  background-color: light;
+}
 
- #footerLogo {
-   margin-top: -25px;
-   border-left: 7px solid white;
-   border-right: 7px solid white;
-   box-shadow: 0px 0px 8px white;
- }
+#footerLogo {
+  margin-top: -25px;
+  border-left: 7px solid white;
+  border-right: 7px solid white;
+  box-shadow: 0px 0px 8px white;
+}
 
- footer p {
+footer p {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.05em;
   line-height: 1.4em;
   color: rgb(160, 160, 160);
- }
+}
 
- footer p:nth-child() {
-   margin-top: 30px;
- }
+footer p:nth-child() {
+  margin-top: 30px;
+}
