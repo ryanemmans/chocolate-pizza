@@ -1,0 +1,46 @@
+h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 2.5em;
+  display: inline-block;
+}
+
+h2 {
+
+}
+
+h3, h4 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+h3 {
+
+}
+
+h4 {
+  font-size: .73em;
+  letter-spacing: .7px;
+  margin-left: 7px;
+}
+
+#logo {
+  float: left;
+  width: 42px;
+  height: 45px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+}
+
+header #link {
+  display: flex;
+}
+
+header #link img {
+  width: 25px;
+  height: 25px;;
+}
