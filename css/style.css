@@ -27,7 +27,6 @@ h3, h4 {
 h3 {
 font-size: .9.3em;
 color: grey;
-margin: 10px 0px 35px 0px;
 display: inline;}
 
 h4 {
@@ -81,12 +80,7 @@ main {
 }
 
 
-main section div {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
- }
- 
+
  main p {
    font-size: 1.2em;
    line-height: 1.3em;
@@ -115,6 +109,10 @@ main section div {
 
    #printer {
      height: 10px;
+   }
+
+   #pizza {
+     margin-top: 30px;
    }
 
  fieldset {
